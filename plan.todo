@@ -1,0 +1,50 @@
+
+
+☐ Lesson 1 - Servers and Domains
+    ☐ Typescript quiz file
+    ☐ Buy Domain
+    ☐ Provision a Server with Digital Ocean
+    ☐ Login with root password
+    ☐ Install nvm
+    ☐ Create http-server and test a connection
+    ☐ Explain what an IP address is
+    ☐ Add a DNS entry
+
+☐ Lesson 2 - Git & a basic http server
+    ☐ Create a public & a private ssh key
+    ☐ Setup a github account
+    ☐ Add your public key to your account
+    ☐ Create a repo
+    ☐ Basic git commands
+    ☐ Using VsCode
+    ☐ Git ignore
+    ☐ Basic html page
+    ☐ Create a basic http server
+
+☐ Lesson 3 - Html, Tailwind, a basic javascript page
+    ☐ Html base elements div, span
+    ☐ Forms
+    ☐ CSS Styles
+    ☐ Tailwind
+    ☐ Flexbox primer
+
+☐ Lesson 4 - Typescript basics, Vite & React
+    ☐ Typescript
+    ☐ Start flash card program
+    ☐ Use State
+    ☐ Forms
+    ☐ Router
+
+☐ Lesson 5 - Basic Server
+    ☐ Http request (get, post, etc)
+    ☐ Send data
+    ☐ Store data on disk
+    ☐ Connect to flashbard app
+
+
+
+
+☐ Lesson 3
+    ☐ Create our own base http server
+    ☐ Setup Ngrok so we can watch the traffic go both ways
+
