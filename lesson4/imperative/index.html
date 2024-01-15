@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <title>Quiz</title>
+  </head>
+  <body>
+    <button onclick="flip()">Flip</button>
+    <button onclick="showNextItem()">Next Item</button>
+    <div id="quiz_area"></div>
+  </body>
+
+  <script>
+    const quiz = [
+      {
+        concept: "RGB",
+        description: "Red Green Blue",
+        mastered: false,
+      },
+      {
+        concept: "Imperative command",
+        description: "A very specific command",
+        mastered: false,
+      },
+      {
+        concept: "Declarative system",
+        description:
+          "A represention of something, let another system figure out how to get it into the correct state",
+        mastered: false,
+      },
+    ];
+
+    let randomItem;
+    let whatAreWeShowing;
+
+    function showNextItem() {
+      const parentNode = document.getElementById("quiz_area");
+
+      // Really simple way of clearing the node
+      while (parentNode.firstChild) {
+        parentNode.removeChild(parentNode.firstChild);
+      }
+
+      randomItem = getRandomItem(quiz);
+
+      const listItem = document.createElement("li");
+      whatAreWeShowing = "concept";
+      listItem.textContent = randomItem.concept;
+
+      parentNode.appendChild(listItem);
+    }
+    showNextItem();
+
+    function flip() {
+      if (randomItem) {
+        const parentNode = document.getElementById("quiz_area");
+        while (parentNode.firstChild) {
+          parentNode.removeChild(parentNode.firstChild);
+        }
+        const listItem = document.createElement("li");
+
+        if (whatAreWeShowing === "concept") {
+          listItem.textContent = randomItem.description;
+          whatAreWeShowing = "description";
+        } else {
+          listItem.textContent = randomItem.concept;
+          whatAreWeShowing = "concept";
+        }
+
+        parentNode.appendChild(listItem);
+      }
+    }
+
+    function getRandomItem(arr) {
+      if (!Array.isArray(arr) || arr.length === 0) {
+        return null; // Return null if the array is empty or not an array
+      }
+      const randomIndex = Math.floor(Math.random() * arr.length);
+      return arr[randomIndex];
+    }
+  </script>
+</html>

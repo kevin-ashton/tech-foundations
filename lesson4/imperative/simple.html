@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World</title>
+    <script>
+      var todos = ["Buy milk", "Read book", "Go for a walk"];
+      const quiz = [
+        {
+          concept: "RGB",
+          description: "Red Green Blue",
+          mastered: false
+        },
+        {
+          concept: "Imperative command",
+          description: "A very specific command",
+          mastered: false
+        },
+        {
+          concept: "Declarative system",
+          description: "A represention of something, let another system figure out how to get it into the correct state",
+          mastered: false
+        },
+      ];
+
+      function replaceChildrenWithTodos() {
+        // Select the node with the id 'cool'
+        var parentNode = document.getElementById("cool");
+
+        // First, remove all existing children
+        while (parentNode.firstChild) {
+          parentNode.removeChild(parentNode.firstChild);
+        }
+
+        // Now, add new children based on the todoItems array
+        todos.forEach(function (item) {
+          // Create a new <li> element for each item
+          var listItem = document.createElement("li");
+          listItem.textContent = item;
+
+          // Append the <li> to the parent node
+          parentNode.appendChild(listItem);
+        });
+      }
+
+      // Example usage
+
+      //   replaceNodeWithTodos(todos);
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div><button onclick="replaceChildrenWithTodos ()">Click Me</button></div>
+    <div id="cool" />
+  </body>
+</html>

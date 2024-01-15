@@ -18,22 +18,58 @@
     ☐ Buy Domain
     ☐ Provision a Server with Digital Ocean
     ☐ Login with root password
-    ☐ Install nvm
+    ☐ Install nvmt
     ☐ Create http-server and test a connection
     ☐ Add a DNS entry
 
 ☐ Lesson 2 - Git & a basic http server
-    ☐ Create a public & a private ssh key
-    ☐ Setup a github account
-    ☐ Add your public key to your account
-    ☐ Create a repo
-    ☐ Basic git commands
-    ☐ Using VsCode
-    ☐ Git ignore
-    ☐ Basic html page
-    ☐ Create a basic http server
+    ☐ Typescript quiz file
+        ☐ public ssh key
+        ☐ private ssh key
+        ☐ git
+        ☐ github
+    ✔ Create a public & a private ssh key @done(23-12-21 14:24)
+    ✔ Setup a github account @done(23-12-21 14:24)
+    ✔ Add your public key to your account @done(23-12-21 14:24)
+    ✔ Create a repo @done(23-12-21 14:24)
+    ✔ Basic git commands @done(23-12-21 14:25)
+    ✔ Using VsCode @done(23-12-21 14:25)
+    ✔ Git ignore @done(23-12-21 14:41)
 
-☐ Lesson 3 - Html, Tailwind, a basic javascript page
+☐ Lesson 3 - Typescript Setup and basic http server
+    ☐ Typescript quiz file
+        ☐ npm
+        ☐ npm registry
+        ☐ package.json
+        ☐ tsc command
+        ☐ tsc -w command
+        ☐ tsconfig.json
+        ☐ types
+            ☐ string
+            ☐ number
+            ☐ boolean
+            ☐ interface
+            ☐ declared type
+            ☐ inferred type
+            ☐ `:` in typescript
+            ☐ `|` in typescript
+            ☐ enum
+    ✔ Setup typescript @done(23-12-21 14:51)
+    ☐ Typescript primer
+        ☐ string
+        ☐ number
+        ☐ boolean
+        ☐ function return type
+
+☐ Lesson 4
+    ☐ Create a basic http server
+        ☐ http protocol
+        ☐ method
+        ☐ headers
+        ☐ body
+
+
+☐ Lesson  - Html, Tailwind, a basic javascript page
     ☐ Html base elements div, span
     ☐ Forms
     ☐ CSS Styles

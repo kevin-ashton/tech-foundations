@@ -3,6 +3,19 @@ interface QuizItem {
   description: string;
 }
 
+/*
+  public ssh key
+  private  ssh key
+  git
+  github
+*/
+
+/*
+  : in typescript - go before type declaration
+  ?
+
+*/
+
 const quiz: QuizItem[] = [
   {
     concept: "domain registrar",
@@ -13,3 +26,6 @@ const quiz: QuizItem[] = [
     description: "",
   },
 ];
+
+// HTML
+// DOM - document object model

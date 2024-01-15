@@ -1,0 +1,8 @@
+
+Hyper Text Transfer Protocol
+
+HTML
+
+Protocol
+    - defined by a group of people
+    - could have been something else, but everyone agrees on the standard
