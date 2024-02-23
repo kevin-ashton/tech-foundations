@@ -1,0 +1,17 @@
+{
+  "name": "lesson5",
+  "version": "1.0.0",
+  "description": "* HTTP Endpoints     * /list     * /delete (todoId)     * /create ({id, text, status})     * /toggle (todoId)",
+  "main": "index.js",
+  "scripts": {
+    "ts-watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.11.19",
+    "fastify": "^4.26.1",
+    "typescript": "^5.3.3"
+  }
+}
